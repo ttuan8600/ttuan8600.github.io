@@ -387,6 +387,7 @@ img {
 
 .about__title{
   font-size: var(--small-font-size);
+  margin-bottom: .25rem;
 }
 
 .about__subtitle{
@@ -394,7 +395,7 @@ img {
 }
 
 .about__description{
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 /*=============== SKILLS ===============*/
 .skills__container{
