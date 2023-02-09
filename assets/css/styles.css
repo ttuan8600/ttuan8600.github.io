@@ -405,7 +405,7 @@ img {
 
 .skills__content{
   background-color: var(--container-color);
-  padding: 1rem;
+  padding: 1.5rem;
   border-radius: 1.25rem;
 }
 
@@ -414,13 +414,13 @@ img {
   font-weight: var(--font-medium);
   color: var(--first-color);
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .skills__box{
   display: flex;
   justify-content: center;
-  column-gap: 2rem;
+  column-gap: 5rem;
 }
 
 .skills__group{
@@ -431,7 +431,7 @@ img {
 
 .skills__data{
   display: flex;
-  column-gap: .5rem;
+  column-gap: .75rem;
 }
 
 .skills .bxs-check-circle{
