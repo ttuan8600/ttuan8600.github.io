@@ -4,7 +4,7 @@ function scrollHeader(){
     // When the scroll is greater than 50 viewport height, add the scroll-header class to the header tag
     if(this.scrollY >= 50) header.classList.add('scroll-header'); else header.classList.remove('scroll-header')
 }
-
+window.addEventListener('scroll', scrollHeader)
 /*=============== SERVICES MODAL ===============*/
 const modelViews = document.querySelectorAll('.services__model'),
         modelBtns = document.querySelectorAll('.services__button'),
@@ -13,7 +13,8 @@ const modelViews = document.querySelectorAll('.services__model'),
 let model = function(modelClick){
     modelViews[modelClick].classList.add('active-model')
 }
-modelBtns.forEach((mb, i)=>{
+
+modelBtns.forEach((mb, i) =>{
     mb.addEventListener('click', () =>{
         model(i)
     })
@@ -21,7 +22,7 @@ modelBtns.forEach((mb, i)=>{
 
 modelClose.forEach((mc)=>{
     mc.addEventListener('click', () =>{
-        modelViews.forEach((mv)=>{
+        modelViews.forEach((mv) =>{
             mv.classList.remove('active-model')
         })
     })

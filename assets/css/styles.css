@@ -548,7 +548,8 @@ img {
   color: var(--first-color);
   cursor: pointer;
 }
-/*Active modal*/
+
+/*Active model*/
 .active-model{
   opacity: 1;
   visibility: visible;
