@@ -410,7 +410,7 @@ img {
 }
 
 .skills__title{
-  font-size: var(--normal-font-size);
+  font-size: var(--big-font-size);
   font-weight: var(--font-medium);
   color: var(--first-color);
   text-align: center;
@@ -449,6 +449,7 @@ img {
   font-size: var(--tiny-font-size);
 }
 /*=============== SERVICES ===============*/
+
 
 
 /* Services modal */
