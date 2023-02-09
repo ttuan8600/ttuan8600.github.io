@@ -449,7 +449,10 @@ img {
   font-size: var(--tiny-font-size);
 }
 /*=============== SERVICES ===============*/
-
+.services__container{
+  row-gap: 2rem;
+  background-color: var(--first-hue);
+}
 
 
 /* Services modal */
