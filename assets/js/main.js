@@ -5,28 +5,27 @@ function scrollHeader(){
     if(this.scrollY >= 50) header.classList.add('scroll-header'); else header.classList.remove('scroll-header')
 }
 window.addEventListener('scroll', scrollHeader)
-/*=============== SERVICES MODAL ===============*/
-const modelViews = document.querySelectorAll('.services__model'),
-        modelBtns = document.querySelectorAll('.services__button'),
-        modelClose = document.querySelectorAll('.services__model-close')
 
-let model = function(modelClick){
-    modelViews[modelClick].classList.add('active-model')
+/*=============== SERVICES MODAL ===============*/
+const modalViews = document.querySelectorAll('.services__modal'), modalBtns = document.querySelectorAll('.services__button'), modalClose = document.querySelectorAll('.services__modal-close')
+
+let modal = function(modalClick){
+    modalViews[modalClick].classList.add('active-modal')
 }
 
-modelBtns.forEach((mb, i) =>{
+modalBtns.forEach((mb, i) =>{
     mb.addEventListener('click', () =>{
-        model(i)
+        modal(i)
     })
 })
 
-modelClose.forEach((mc)=>{
+modalClose.forEach((mc) =>{
     mc.addEventListener('click', () =>{
-        modelViews.forEach((mv) => {
-            mv.classList.remove('active-model')
+        modalViews.forEach((mv) =>{
+            mv.classList.remove('active-modal')
         })
     })
-})   
+})
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
 
 

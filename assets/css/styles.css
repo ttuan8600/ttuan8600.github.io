@@ -483,64 +483,64 @@ img {
   font-size: 1rem;
   transition: .4s;
 }
-/* Services model */
-.services__model{
+/* Services modal */
+.services__modal{
   position: fixed;
   inset: 0;
   background-color: hsla(var(--second-hue), 28%, 16%, .7);
   padding: 2rem 1rem;
   display: grid;
   place-items: center;
-  visibility: hidden;
   opacity: 0;
+  visibility: hidden;
   transition: .4s;
   z-index: var(--z-modal);
 }
 
-.services__model-content{
+.services__modal-content{
   position: relative;
   background-color: var(--body-color);
   padding: 3rem 1.5rem 2.5rem;
   border-radius: 1.5rem;
 }
 
-.services__model-title,
-.services__model-description{
+.services__modal-title,
+.services__modal-description{
   text-align: center;
 }
 
-.services__model-title{
+.services__modal-title{
   font-size: var(--h3-font-size);
   color: var(--first-color);
   margin-bottom: 1rem;
 }
 
-.services__model-description{
+.services__modal-description{
   font-size: var(--small-font-size);
   margin-bottom: 2rem;
 }
 
-.services__model-list{
+.services__modal-list{
   display: grid;
   row-gap: .75rem;
 }
 
-.services__model-item{
+.services__modal-item{
   display: flex;
   align-items: flex-start;
   column-gap: .5rem;
 }
 
-.services__model-icon{
+.services__modal-icon{
   font-size: 1.25rem;
   color: var(--first-color);
 }
 
-.services__model-info{
+.services__modal-info{
   font-size: var(--small-font-size);
 }
 
-.services__model-close{
+.services__modal-close{
   position: absolute;
   top: 1.5rem;
   right: 1.5rem;
@@ -549,8 +549,8 @@ img {
   cursor: pointer;
 }
 
-/*Active model*/
-.active-model{
+/*Active modal*/
+.active-modal{
   opacity: 1;
   visibility: visible;
 }
