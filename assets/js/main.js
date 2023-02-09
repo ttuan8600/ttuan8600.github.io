@@ -1,6 +1,6 @@
 /*=============== CHANGE BACKGROUND HEADER ===============*/
 function scrollHeader(){
-    const header = documet.getElementById('header')
+    const header = document.getElementById('header')
     // When the scroll is greater than 50 viewport height, add the scroll-header class to the header tag
     if(this.scrollY >= 50) header.classList.add('scroll-header'); else header.classList.remove('scroll-header')
 }
@@ -22,7 +22,7 @@ modelBtns.forEach((mb, i) =>{
 
 modelClose.forEach((mc)=>{
     mc.addEventListener('click', () =>{
-        modelViews.forEach((mv) =>{
+        modelViews.forEach((mv) => {
             mv.classList.remove('active-model')
         })
     })
