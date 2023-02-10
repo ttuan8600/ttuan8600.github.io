@@ -420,7 +420,7 @@ img {
 .skills__box{
   display: flex;
   justify-content: center;
-  column-gap: 5rem;
+  column-gap: 3rem;
 }
 
 .skills__group{
@@ -431,7 +431,7 @@ img {
 
 .skills__data{
   display: flex;
-  column-gap: .75rem;
+  column-gap: .5rem;
 }
 
 .skills .bxs-check-circle{
@@ -451,7 +451,7 @@ img {
 /*=============== SERVICES ===============*/
 .services__container{
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
+  gap: 1rem;
   padding-top: 1rem;
 }
 
@@ -463,7 +463,7 @@ img {
 
 .services__title{
   font-size: var(--h3-font-size);
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
 }
 
 .services__button{
