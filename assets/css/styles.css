@@ -556,8 +556,16 @@ img {
 }
 
 /*=============== WORK ===============*/
+.work__container{
+  padding-top: 1rem;
+}
 
-
+.work__filter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: .75rem;
+}
 /* Active item work*/
 
 
