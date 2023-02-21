@@ -565,6 +565,30 @@ img {
   justify-content: center;
   align-items: center;
   column-gap: .75rem;
+  margin-bottom: 2rem;
+}
+
+.work__items{
+  cursor: pointer;
+  color: var(--title-color);
+  padding: .25rem .75rem;
+  font-weight: var(--font-medium);
+  border-radius: .5rem;
+}
+
+.work__card{
+  background-color: var(--container-color);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.work__img{
+  border-radius: 1rem;
+  margin-bottom: .75rem;
+}
+
+.work__title{
+  
 }
 /* Active item work*/
 
